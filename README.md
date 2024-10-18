@@ -5,7 +5,8 @@ A simple extraction with web scraping a web page  followed by transforming the e
 
 The outlook is as follows:
 
-![image](https://github.com/user-attachments/assets/d23e7c97-f91f-46b0-896b-497584721f13)
+![Screenshot 2024-10-18 104120](https://github.com/user-attachments/assets/4d8c13d8-2a88-40bd-86aa-0efa6af13097)
+
 
 
 # Requirements
@@ -19,7 +20,8 @@ The outlook is as follows:
    The structure follows as:
 
 
-   ![image](https://github.com/user-attachments/assets/077af033-a578-4e69-bf5d-e58550fe04f2)
+   ![Screenshot 2024-10-18 110157](https://github.com/user-attachments/assets/445ac86b-ba1b-437b-a4c5-fb78dd55928c)
+
 
 
 2. ## docker-compose.yaml file creartion.
@@ -45,7 +47,8 @@ The outlook is as follows:
 
    After creating them the structure sholud look like this:
    
-   ![image](https://github.com/user-attachments/assets/a61e2547-100f-4d56-b9a1-d0e1e97f0346)
+   ![Screenshot 2024-10-18 111922](https://github.com/user-attachments/assets/696fa361-8af8-40dd-8775-de5750195d5c)
+
 
 4. ## Starting docker for airflow.
    In the command line execute `Docker-compose up`, it will start pulling the requirements and installing them.
@@ -53,7 +56,7 @@ The outlook is as follows:
    It may take a while for them to get installed. When the installation has completed, you can see a new container created in the docker with name **airflow**.
    In the container section we can see like this:
 
-   ![image](https://github.com/user-attachments/assets/eca7d979-4ac0-465c-af4b-81ed4fb1f245)
+  ![Screenshot 2024-10-18 112839](https://github.com/user-attachments/assets/7f853717-e49e-4a4d-b3ff-ee2a9ab7c549)
 
 
 5. ## Airflow Web UI.
@@ -70,34 +73,36 @@ The outlook is as follows:
 
    The structure sholud look like this:
    
-   ![Screenshot 2024-10-18 114952](https://github.com/user-attachments/assets/0e3a138e-3184-4318-b3b1-8e2b1a53da83)
+  ![Screenshot 2024-10-18 114952](https://github.com/user-attachments/assets/02637358-1ee1-4150-9fed-83d97054f1db)
 
-    Extraction. <br>
+
+   Extraction. <br>
    
-   `BeautifulSoup` which is avaliable in the `bs4` python liberary.
+ `BeautifulSoup` which is avaliable in the `bs4` python liberary.
    
-    Transformation. <br>
+  Transformation. <br>
     
-   python's `pandas` library is needed.  <br>
+  python's `pandas` library is needed.  <br>
    
-    Load. <br>
+   Load. <br>
     
-    In this repo s3 bucket from aws account is used to load the data.
-    For this first we need to create a s3 bucket in the aws account. <br>
-    create a IAM role and give the access to s3 bucket for that role and copi the ***Access key id*** and ***Access key password***  these will be needed to createa connection in the airflow UI. <br>
-    We will be using `S3Hook` liberary to connect AWS s3 with airflow.
-    In the airflow UI, in the Admin section navigate to and create a new connection with following, <br>
-    connection Id: `aws_s3_conn` <br>
-    connection type: `Amazon web server` <br>
-    AWS Access key ID: `Your_Access_key` <br>
-    AWS Access key Password: `Your_Access_key_Passowrd` <br>
-    With that the connection is set.
+   For this project, s3 bucket from aws account is choosen to load the data transformed.
+   For this first we need to create a s3 bucket in the aws account. <br>
+   create a IAM role and give the access to s3 bucket for that role and copi the ***Access key id*** and ***Access key password***  these will be needed to createa connection in the airflow UI. <br>
+   We will be using `S3Hook` liberary to connect AWS s3 with airflow.
+   In the airflow UI, in the Admin section navigate to and create a new connection with following, <br>
+   connection Id: `aws_s3_conn` <br>
+   connection type: `Amazon web server` <br>
+   AWS Access key ID: `Your_Access_key` <br>
+   AWS Access key Password: `Your_Access_key_Passowrd` <br>
+   With that the connection is set.
    
 8. To run the dag open the dag >> unpause the dag  >> run dag using the run buttun at top left.
    If you switch to the graph section you can see the each task of dags and their status.
 
 
- ![image](https://github.com/user-attachments/assets/bb19cccd-e3c4-48c6-8269-715682667f8f)
+![Screenshot 2024-10-18 120947](https://github.com/user-attachments/assets/0d95bfce-3e05-453c-b4c2-b0588523f2ee)
+
 
    
 
