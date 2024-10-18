@@ -54,7 +54,7 @@ def extraction():
         return (df)
 
 
-def upload_to_s3(df,bucket_name,file_name,aws_conn_id='aws_s3_conn'):
+def upload_to_s3(df,bucket_name,file_name,aws_conn_id='aws_s3_conn'):                # aws_s3_conn  ---> connection id name created from admin section >> connection (in the airflow UI).
       csv_buffer = df.to_csv(index=False)
       s3_hook = S3Hook(aws_conn_id=aws_conn_id)
       s3_hook.load_string(
@@ -65,7 +65,7 @@ def upload_to_s3(df,bucket_name,file_name,aws_conn_id='aws_s3_conn'):
         
 def upload_task(**kwargs):
       df = extraction()
-      upload_to_s3(df,'are-airflow-bucket-etl','extracted_data.csv')   
+      upload_to_s3(df,'AWS_s3_bucket_name_created','extracted_data.csv')   
 
 
 default_args = {
