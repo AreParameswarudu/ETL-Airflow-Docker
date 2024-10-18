@@ -1,0 +1,91 @@
+[2024-10-18T09:51:18.519+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:18.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:51:18.529+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:18.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:18.951+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:19.040+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:19.038+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:51:19.118+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:19.117+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:51:19.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.704 seconds
+[2024-10-18T09:51:50.464+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:50.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:51:50.519+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:50.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:51.411+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:51:51.517+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:51.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:51:51.652+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:51:51.651+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:51:51.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 1.437 seconds
+[2024-10-18T09:52:22.281+0000] {processor.py:186} INFO - Started process (PID=786) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:22.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:52:22.289+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:22.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:22.541+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:22.590+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:22.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:52:22.670+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:22.670+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:52:22.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.453 seconds
+[2024-10-18T09:52:53.521+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:53.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:52:53.525+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:53.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:53.710+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:52:53.751+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:53.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:52:53.813+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:52:53.813+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:52:53.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.379 seconds
+[2024-10-18T09:53:24.452+0000] {processor.py:186} INFO - Started process (PID=1368) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:24.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:53:24.461+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:24.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:24.649+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:24.677+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:24.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:53:24.710+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:24.710+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:53:24.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.302 seconds
+[2024-10-18T09:53:55.103+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:55.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:53:55.109+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:55.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:55.354+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:53:55.393+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:55.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:53:55.447+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:53:55.446+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:53:55.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.406 seconds
+[2024-10-18T09:54:25.592+0000] {processor.py:186} INFO - Started process (PID=1953) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:25.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:54:25.596+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:25.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:25.700+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:25.720+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:25.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:54:25.743+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:25.743+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:54:25.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.181 seconds
+[2024-10-18T09:54:55.981+0000] {processor.py:186} INFO - Started process (PID=2241) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:55.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:54:55.989+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:55.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:56.114+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:54:56.152+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:56.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:54:56.174+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:54:56.174+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:54:56.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.226 seconds
+[2024-10-18T09:55:26.269+0000] {processor.py:186} INFO - Started process (PID=2535) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:26.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:55:26.273+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:26.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:26.400+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:26.422+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:26.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:55:26.443+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:26.443+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:55:26.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.206 seconds
+[2024-10-18T09:55:56.652+0000] {processor.py:186} INFO - Started process (PID=2831) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:56.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:55:56.657+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:56.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:56.784+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:55:56.805+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:56.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:55:56.827+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:55:56.827+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:55:56.848+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.202 seconds
+[2024-10-18T09:56:27.218+0000] {processor.py:186} INFO - Started process (PID=3129) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:27.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:56:27.224+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:27.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:27.380+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:27.406+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:27.406+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:56:27.440+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:27.440+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:56:27.473+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.264 seconds
+[2024-10-18T09:56:58.274+0000] {processor.py:186} INFO - Started process (PID=3421) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:58.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:56:58.278+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:58.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:58.433+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:56:58.457+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:58.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:56:58.486+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:56:58.486+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:56:58.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.247 seconds
+[2024-10-18T09:57:28.664+0000] {processor.py:186} INFO - Started process (PID=3715) to work on /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:57:28.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/webscraping-ETL.py for tasks to queue
+[2024-10-18T09:57:28.672+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:57:28.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:57:28.781+0000] {processor.py:925} INFO - DAG(s) 'WebScraping-etl-dag' retrieved from /opt/airflow/dags/webscraping-ETL.py
+[2024-10-18T09:57:28.803+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:57:28.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T09:57:28.822+0000] {logging_mixin.py:190} INFO - [2024-10-18T09:57:28.822+0000] {dag.py:4180} INFO - Setting next_dagrun for WebScraping-etl-dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T09:57:28.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/webscraping-ETL.py took 0.196 seconds
