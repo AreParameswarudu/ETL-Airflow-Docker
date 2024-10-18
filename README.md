@@ -24,7 +24,7 @@ The outlook is as follows:
 
 
 
-2. ## docker-compose.yaml file creartion.
+2. ## Docker-compose.yaml file creartion.
    In the airlow directory, create a yaml file, it can be copied from the repo 
    or can be download from the official website for that follow
    1. `curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.2/docker-compose.yaml'`     to run on command to install directly.
@@ -97,7 +97,8 @@ The outlook is as follows:
    AWS Access key Password: `Your_Access_key_Passowrd` <br>
    With that the connection is set.
    
-8. To run the dag open the dag >> unpause the dag  >> run dag using the run buttun at top left.
+8. ## Running/Triggering the dag
+   To run the dag open the dag >> unpause the dag  >> run dag using the run buttun at top left.
    If you switch to the graph section you can see the each task of dags and their status.
 
 
