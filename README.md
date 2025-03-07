@@ -5,7 +5,8 @@ A simple extraction with web scraping a web page  followed by transforming the e
 
 The outlook is as follows:
 
-![Screenshot 2024-10-18 104120](https://github.com/user-attachments/assets/4d8c13d8-2a88-40bd-86aa-0efa6af13097)
+![image](https://github.com/user-attachments/assets/97aaf7c2-228a-4338-9167-47e94c695190)
+
 
 
 
